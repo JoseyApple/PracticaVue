@@ -39,7 +39,7 @@ Ejemplo de estructura de un libro en books.json por si al usuario le interesa a√
     }
   ]
 }
-
+```
 
 
 ![image](https://github.com/user-attachments/assets/7a10898a-afa3-419a-bcb9-94c8231db6a2)
