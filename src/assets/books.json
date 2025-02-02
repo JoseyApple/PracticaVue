@@ -285,5 +285,41 @@
         ]
       }
     }
+  },
+  {
+    "book": {
+      "title": "Cien años de soledad",
+      "pages": 471,
+      "genre": "Realismo mágico",
+      "cover": "https://pics.filmaffinity.com/Cien_aanos_de_soledad_Serie_de_TV-606630216-large.jpg",
+      "synopsis": "La historia de la familia Buendía en el pueblo ficticio de Macondo.",
+      "year": 1967,
+      "ISBN": "978-0307474728",
+      "author": {
+        "name": "Gabriel García Márquez",
+        "otherBooks": [
+          "El amor en los tiempos del cólera",
+          "Crónica de una muerte anunciada"
+        ]
+      }
+    }
+  },
+  {
+    "book": {
+      "title": "Don Quijote de la Mancha",
+      "pages": 863,
+      "genre": "Clásico",
+      "cover": "https://m.media-amazon.com/images/I/91CIwR3QU1L._UF1000,1000_QL80_.jpg",
+      "synopsis": "Las aventuras de un caballero que confunde la realidad con la fantasía.",
+      "year": 1605,
+      "ISBN": "978-8424119646",
+      "author": {
+        "name": "Miguel de Cervantes",
+        "otherBooks": [
+          "La Galatea",
+          "Novelas ejemplares"
+        ]
+      }
+    }
   }
 ]}
