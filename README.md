@@ -1,10 +1,6 @@
 Bienvenido a mi primer proyecto de Vue, hecho por Jose Manuel de la Cruz 2ºDAW
 Aplicación de Lista de Libros
-
----
-
-## 📂 Estructura del Proyecto
-
+```
 PracticaVue/
 ├── src/
 │   ├── assets/
@@ -21,7 +17,7 @@ PracticaVue/
 ├── package.json               # Dependencias del proyecto
 ├── vite.config.js             # Configuración de Vite
 
----
+```
 
 
 Ejemplo de estructura de un libro en books.json
@@ -42,7 +38,7 @@ Ejemplo de estructura de un libro en books.json
     }
   ]
 }
-
+```
 La aplicación renderiza en un contenedor principal una lista de libros junto con su portadas, donde, con un evento de clic, podemos moverlas a otro contenedor de lista de lectura;
 Esta tiene un evento similar donde pueden volver a su estado original en la lista de libros de contenedores sin conflicto de género o páginas.
 
