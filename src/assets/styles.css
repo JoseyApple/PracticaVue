@@ -1,0 +1,162 @@
+/* 🔹 Ajustes generales */
+body {
+  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/wood_pattern.png'); /* Fondo estilo madera */
+  color: #2c2c2c;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔹 Contenedor principal */
+#app-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 🔹 Encabezado */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #6f4e37; /* Color café estilo librería */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* 🔹 Filtros */
+#filter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+#search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; /* 📌 Asegura que ocupe todo el espacio */
+}
+
+#search-bar input {
+  padding: 12px;
+  border: 2px solid #5a3e2b;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #fff5e1;
+  color: #2c2c2c;
+  font-weight: bold;
+  width: 100%; /* 📌 Expande el input */
+}
+
+
+
+/* 🔹 Ajuste del texto en el filtro de páginas */
+#page-slider label {
+  font-size: 1.2rem; /* 📌 Se aumenta el tamaño del texto */
+  font-weight: bold;
+}
+
+/* 🔹 Contenedor principal de libros y lista de lectura */
+#main-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* 🔹 Sección de libros */
+#libros-container {
+  flex: 2;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#libros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* 🔹 Tarjetas de libro */
+.book-card {
+  background: #fff5e1;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Imagen de portada del libro */
+.book-cover {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* 🔹 Lista de lectura (tipo estantería) */
+#lectura-container {
+  flex: 1;
+  max-width: 320px;
+  background: #b76e79; /* Color de estantería */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #000; /* 📌 Texto en negro para mejor visibilidad */
+}
+
+/* 🔹 Asegurar que el título de la lista de lectura sea visible */
+.lectura-title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000; /* 📌 Texto negro */
+}
+
+/* 🔹 Cuadrícula para los libros en la lista de lectura */
+#lectura {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+/* 🔹 Solo centrar el mensaje "No hay libros en la lista" sin afectar la estructura */
+.no-books {
+  text-align: center; /* 📌 Solo afecta este texto */
+  color: #000; /* 📌 Texto negro */
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* 🔹 Ajustes de botones y elementos de control */
+button {
+  background: #5a3e2b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #44281d;
+}
+
