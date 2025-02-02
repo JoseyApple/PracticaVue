@@ -172,7 +172,7 @@ Y con esto ya hemos explicado cómo funciona nuestra aplicación, funciones senc
 
 -----------------SUGERENCIAS------------------
 
-El código es mejorable, en optimización, además de que no tiene mucho sentido que las variables del filtro aparezcan en otro componente pero por necesidades de LocalStorage y mantener la sincronización he sacrificado un poco la limpieza y buenas prácticas con tal que funcionase correctamente. En un futuro se podría mejorar la página web pero todavía estoy aprendiendo Vue, y no me importaría mejorar mis habilidades.
+El código es mejorable, en optimización, además de que no tiene mucho sentido que las variables del filtro aparezcan en otro componente pero por necesidades de LocalStorage y mantener la sincronización he sacrificado un poco la limpieza y buenas prácticas con tal que funcionase correctamente. En un futuro se podría mejorar la página web pero todavía estoy aprendiendo Vue, queda mucho por aprender de este framework.
 
 Gracias por su atención, Jose Manuel 2º de DAW.
 
