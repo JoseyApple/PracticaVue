@@ -16,7 +16,6 @@
           </div>
         </div>
       </section>
-
       <ListaDeLectura :listaDeLectura="listaDeLectura" :quitarDeLectura="quitarDeLectura" />
     </main>
   </div>

@@ -36,6 +36,13 @@ const genero = ref("todas");
 const maximoPaginas = ref(1000);
 const inputBusqueda = ref("");
 
+// Necesito el número de libros disponibles para que renderice la cantidad en el header.
+defineProps({
+  books: Array,
+  librosDisponibles: Number, // Recibimos librosDisponibles como número
+});
+
+
 //Watch sirve para que observe cambios en las variables y llame a la funcion emit
 watch(
   () => [genero.value, maximoPaginas.value, inputBusqueda.value],
