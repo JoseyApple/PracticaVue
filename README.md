@@ -1,6 +1,10 @@
 Bienvenido a mi primer proyecto de Vue, hecho por Jose Manuel de la Cruz 2ºDAW
 Aplicación de Lista de Libros
 
+---
+
+## 📂 Estructura del Proyecto
+
 PracticaVue/
 ├── src/
 │   ├── assets/
@@ -17,9 +21,12 @@ PracticaVue/
 ├── package.json               # Dependencias del proyecto
 ├── vite.config.js             # Configuración de Vite
 
+---
+
 
 Ejemplo de estructura de un libro en books.json
 
+```json
 {
   "library": [
     {
@@ -67,13 +74,7 @@ const agregarALectura = (libro) => {
 La condición es por medidas de seguridad, en caso de problemas se sincronización entre nuestra sesión y el localStorage. 
 
 Pusheamos nuestro libro a la listaDeLectura y para modificar la lista de libros, hacemos un filtro inverso para devolver todos los libros menos en que acabamos de añadir a la otra lista. Ahora nuestro computed será capaz de detectar
-el cambio y realizar la renderización con un bucle de esta manera:
-
- <div v-for="libro in librosFiltrados" :key="libro.book.ISBN" class="book-card">
-    <img :src="libro.book.cover" :alt="'Portada del libro ' + libro.book.title" class="book-cover" @click="agregarALectura(libro)" />
-      <h3 class="book-title">{{ libro.book.title }}</h3>
-      <p class="book-author">{{ libro.book.author.name }}</p>
-</div>
+el cambio y realizar la renderización con un bucle de v-for
 
 
 
