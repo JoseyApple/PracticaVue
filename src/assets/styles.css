@@ -131,17 +131,24 @@ body {
 
 /* 🔹 Cuadrícula para los libros en la lista de lectura */
 #lectura {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
 }
 
 /* 🔹 Solo centrar el mensaje "No hay libros en la lista" sin afectar la estructura */
 .no-books {
-  text-align: center; /* 📌 Solo afecta este texto */
-  color: #000; /* 📌 Texto negro */
-  font-style: italic;
+  text-align: center;
+  font-size: 1.4rem;
   font-weight: bold;
+  color: #000;
+  background-color: #ffdddd;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -159,4 +166,25 @@ button {
 button:hover {
   background: #44281d;
 }
+
+.mensaje-no-libros {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000; /* Texto negro para mejor visibilidad */
+  background-color: #ffdddd; /* Fondo rojo claro para resaltar */
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+}
+
+
 
